@@ -1,0 +1,146 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    background: black;  
+}
+
+.menu {
+    background: #000000;
+    padding: 15px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    justify-content: center; 
+    gap: 40px;               
+    padding: 20px 0;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;      
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu a:hover {
+    color: #9a6e6e;
+}
+
+.banner {
+    background: url("../images/banner.jpg");
+    background-size: cover;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.slider-row {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;              
+    padding: 20px;
+}
+
+.slider {
+    margin: 30px;
+    width: 300px;           
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.slider img {
+    width: 300px;
+    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+
+
+.breadcrumb {
+    margin: 15px;
+    color: #555;
+}
+
+.album {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+.pagination-container a:hover{
+    color:  #c79b9b;
+    text-decoration: underline;
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;              
+    padding: 20px;
+    max-width: 1000px;      
+    margin: 0 auto;
+}
+
+.album-img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    object-fit: cover;
+    margin-bottom: 15px;  
+}
+
+.album-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;                      
+    padding: 20px;
+    max-width: 1200px;              
+    margin: 0 auto;                
+}
+
+.album-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;                  
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    align-items: center;     
+    text-align: center; 
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;               
+    margin-top: 30px;
+    padding-bottom: 50px;    
+    width: 100%;             
+    grid-column: 1 / -1;     
+}
+
+.pagination-container a {
+    color: #9a6e6e;          
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.search-results p {
+    color: white;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}

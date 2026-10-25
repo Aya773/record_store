@@ -1,0 +1,56 @@
+body.login-page {
+    margin: 0;
+    height: 100vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.login-box {
+    width: 350px;
+    height: 420px;
+    background: #3a3535;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.store-name {
+    color: white;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    background: rgb(233, 222, 222);
+    border: 1px solid #444;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #9a6e6e;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c79b9b;
+}
